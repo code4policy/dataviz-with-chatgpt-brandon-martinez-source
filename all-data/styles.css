@@ -1,0 +1,12 @@
+body {
+    background-color: #f0f0f0; /* Grey background */
+    font-family: 'Times New Roman', Times, serif; /* Times New Roman font */
+}
+
+#visualization {
+    color: green; /* Green text color */
+}
+
+button {
+    margin-top: 20px;
+}
