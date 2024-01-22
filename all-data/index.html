@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extended Bar Chart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Boston 311 Calls</h1>
+    <h2>Reasons for 311 Calls in the City of Boston in 2023, by Count</h2>
+    <div id="extendedVisualization"></div>
+    <button onclick="goBack()">Go Back</button>
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        function goBack() {
+            window.location.href = "../index.html";
+        }
+    </script>
+</body>
+</html>
